@@ -9,7 +9,11 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="ドラム式洗濯機の分解クリーニング｜ピカラボ">
 <meta property="og:description" content="ドラム式洗濯機の「乾かない・臭い」を分解洗浄で解決。神奈川・東京に出張対応。">
-<meta property="og:image" content="img/drum-after.jpg">
+<link rel="canonical" href="https://pikalabo.jp/">
+<meta property="og:url" content="https://pikalabo.jp/">
+<meta property="og:site_name" content="ピカラボ">
+<meta property="og:image" content="https://pikalabo.jp/img/drum-after.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:locale" content="ja_JP">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 36'%3E%3Cpath d='M15 1C15 1 3 15 3 23a12 12 0 0 0 24 0C27 15 15 1 15 1z' fill='%231C8ADB'/%3E%3Ccircle cx='15' cy='23' r='6.5' fill='none' stroke='%23fff' stroke-width='2.4'/%3E%3Ccircle cx='15' cy='23' r='2.4' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +24,8 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "ピカラボ 洗濯機分解クリーニング",
+  "url": "https://pikalabo.jp/",
+  "image": "https://pikalabo.jp/img/drum-after.jpg",
   "description": "ドラム式・縦型洗濯機の分解クリーニング、エアコンクリーニング、風呂釜洗浄の出張サービス",
   "telephone": "050-1793-3909",
   "priceRange": "¥11,000〜",
@@ -112,6 +118,15 @@ h1,h2,h3,p{margin:0}
 .area-band .sm{margin-top:4px;font-size:14px;font-weight:700}
 
 /* ===== CTA buttons ===== */
+.hpdeal{display:flex;align-items:center;gap:14px;background:#fff;border:2px dashed var(--orange);border-radius:18px;padding:14px 18px;line-height:1.6}
+.hpdeal .amt{flex-shrink:0;background:var(--orange);color:#fff;border-radius:12px;padding:8px 12px;text-align:center;font-weight:700;line-height:1.25}
+.hpdeal .amt b{display:block;font-size:24px;letter-spacing:.02em}
+.hpdeal .amt small{font-size:11px}
+.hpdeal .tx{font-size:14px;color:var(--text)}
+.hpdeal .tx strong{display:block;word-break:keep-all;overflow-wrap:anywhere;font-size:16px;color:var(--ink)}
+.hpdeal .tx small{display:block;margin-top:2px;font-size:12px;color:var(--pale)}
+.hpdeal-top{max-width:560px;margin:0 auto;padding:20px 20px 0}
+.hpdeal-price{margin:22px 0 0}
 .cta-box{max-width:560px;margin:0 auto;padding:20px 20px 0}
 .btn{display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none;border-radius:18px;padding:14px 20px;line-height:1.5;color:#fff;font-weight:700}
 .btn + .btn{margin-top:10px}
@@ -350,6 +365,7 @@ footer .copy{margin-top:20px;font-size:11px}
   .hero .face-name{top:358px;right:62px;font-size:13px}
   .badges{left:40px;right:auto;width:520px;bottom:50px}
   .badge .s{font-size:14px}.badge .b{font-size:24px}
+  .hpdeal-top{max-width:1080px;padding-top:28px}
   .cta-box{max-width:1080px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;padding-top:28px}
   .btn + .btn{margin-top:0}
   .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
@@ -385,7 +401,7 @@ footer .copy{margin-top:20px;font-size:11px}
     <li><a href="#greeting">代表あいさつ</a></li>
     <li><a href="#faq">よくある質問</a></li>
   </ul>
-  <a class="btn reserve" href="https://ohzuru27-ops.github.io/pikalabo/" target="_blank" rel="noopener"><span class="t">予約フォームからご予約</span></a>
+  <a class="btn reserve" href="https://ohzuru27-ops.github.io/pikalabo/?from=hp" target="_blank" rel="noopener"><span class="t">予約フォームからご予約</span></a>
   <a class="btn line" href="https://lin.ee/69tgYH4" target="_blank" rel="noopener"><span class="t">LINEで無料相談</span></a>
   <a class="btn tel2" href="tel:050-1793-3909"><span class="t">電話 050-1793-3909</span></a>
   <p class="dr-hours">営業時間 8:30〜19:00</p>
@@ -399,7 +415,7 @@ footer .copy{margin-top:20px;font-size:11px}
     </a>
     <nav class="head-nav" aria-label="ページ内メニュー">
       <a href="#voice">お客様の声</a><a href="#price">料金</a><a href="#area">対応エリア</a><a href="#faq">よくある質問</a>
-      <a class="hb" href="https://ohzuru27-ops.github.io/pikalabo/" target="_blank" rel="noopener">ご予約</a>
+      <a class="hb" href="https://ohzuru27-ops.github.io/pikalabo/?from=hp" target="_blank" rel="noopener">ご予約</a>
     </nav>
     <div class="pay"><span>各種お支払い対応</span><i>現金</i><i>PayPay</i><i>銀行振込</i></div>
   </div>
@@ -432,8 +448,9 @@ footer .copy{margin-top:20px;font-size:11px}
   <p class="sm">その他の地域もご相談ください</p>
 </div>
 
+<div class="hpdeal-top"><div class="hpdeal "><div class="amt"><small>ホームページ限定</small><b>¥3,000</b><small>OFF</small></div><div class="tx"><strong>予約フォームからの<wbr>ご予約で<wbr>¥3,000引き</strong>このページの予約ボタンから進むと、お見積りから自動で差し引きます。<small>※インスタ投稿割・セット特典と併用できます（紹介者割との併用はできません）</small></div></div></div>
 <div class="cta-box">
-  <a class="btn reserve" href="https://ohzuru27-ops.github.io/pikalabo/" target="_blank" rel="noopener"><span class="t">予約フォームからご予約</span><span class="s">必要事項を入力してご予約ください</span></a>
+  <a class="btn reserve" href="https://ohzuru27-ops.github.io/pikalabo/?from=hp" target="_blank" rel="noopener"><span class="t">予約フォームからご予約</span><span class="s">必要事項を入力してご予約ください</span></a>
   <a class="btn line" href="https://lin.ee/69tgYH4" target="_blank" rel="noopener"><span class="t">LINEで無料相談</span><span class="s">ご相談・お見積もりはお気軽にどうぞ</span></a>
   <a class="btn tel" href="tel:050-1793-3909"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6a1 1 0 0 0-1 .2l-2.2 2.2a15 15 0 0 1-6.5-6.5l2.2-2.2a1 1 0 0 0 .3-1A11.4 11.4 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1 17 17 0 0 0 17 17 1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/></svg><span><span class="num">050-1793-3909</span><span class="s">お電話でのご相談 8:30〜19:00</span></span></a>
 </div>
@@ -525,6 +542,7 @@ footer .copy{margin-top:20px;font-size:11px}
     <h2 class="sec-title">洗濯機クリーニング料金</h2>
     <div class="bar-deco" aria-hidden="true"></div>
     <p class="lead">ドラム式25,000円・縦型20,000円から承ります。料金はすべて税込です。事前にお伝えした料金から、当日変わることはありません。</p>
+    <div class="hpdeal hpdeal-price"><div class="amt"><small>ホームページ限定</small><b>¥3,000</b><small>OFF</small></div><div class="tx"><strong>予約フォームからの<wbr>ご予約で<wbr>¥3,000引き</strong>このページの予約ボタンから進むと、お見積りから自動で差し引きます。<small>※インスタ投稿割・セット特典と併用できます（紹介者割との併用はできません）</small></div></div>
 
     <h3 class="sub-title">ドラム式洗濯機</h3>
     <div class="ptable-wrap">
@@ -729,7 +747,7 @@ footer .copy{margin-top:20px;font-size:11px}
     <h2 class="h">お見積もりだけでも<br>お気軽にどうぞ。</h2>
     <p class="s">ご予約は予約フォームから。<br>ご相談・お見積もりはLINE・お電話でお気軽にどうぞ。</p>
     <div class="btns">
-      <a class="btn reserve" href="https://ohzuru27-ops.github.io/pikalabo/" target="_blank" rel="noopener"><span class="t">予約フォームからご予約</span></a>
+      <a class="btn reserve" href="https://ohzuru27-ops.github.io/pikalabo/?from=hp" target="_blank" rel="noopener"><span class="t">予約フォームからご予約</span></a>
       <a class="btn line" href="https://lin.ee/69tgYH4" target="_blank" rel="noopener"><span class="t">LINEで無料相談</span></a>
       <a class="btn tel2" href="tel:050-1793-3909">電話で相談する 050-1793-3909</a>
     </div>
@@ -760,7 +778,7 @@ footer .copy{margin-top:20px;font-size:11px}
 </footer>
 
 <nav class="fbar" id="fbar" aria-label="お問い合わせ">
-  <a class="res" href="https://ohzuru27-ops.github.io/pikalabo/" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M8.5 14.5l2.5 2.5 4.5-5"/></svg>予約フォームからご予約</a>
+  <a class="res" href="https://ohzuru27-ops.github.io/pikalabo/?from=hp" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M8.5 14.5l2.5 2.5 4.5-5"/></svg>予約フォームからご予約</a>
   <a href="#price"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>料金表</a>
   <a class="tel" href="tel:050-1793-3909"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6a1 1 0 0 0-1 .2l-2.2 2.2a15 15 0 0 1-6.5-6.5l2.2-2.2a1 1 0 0 0 .3-1A11.4 11.4 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1 17 17 0 0 0 17 17 1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/></svg>電話で相談</a>
   <a class="ln" href="https://lin.ee/69tgYH4" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9.6 9.6 0 0 1-3.6-.7L3 21l1.6-4.3A8 8 0 0 1 3 11.5 8.6 8.6 0 0 1 12 3a8.6 8.6 0 0 1 9 8.5z"/></svg>LINEで相談</a>
